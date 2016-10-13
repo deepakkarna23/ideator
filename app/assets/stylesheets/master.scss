@@ -2,6 +2,7 @@
 
 $primary-font: 'Gloria Hallelujah', sans-serif;  
 $secondary-font: 'Dosis', sans-serif;  
+$tertiary-font: 'Neucha', sans-serif;
 $main-blue: #337ab7;
 $footer-height: 45px;
 
@@ -14,12 +15,9 @@ $footer-height: 45px;
   font-family: $primary-font;
 }
 
-.html, .body {
-    font-family: $primary-font;
-}
-
 body {
   background: url('https://wallpaperscraft.com/image/background_black_white_wooden_surface_board_18564_2048x2048.jpg')fixed no-repeat;
+  font-style: $tertiary-font;
 }
 
 .navbar-header .navbar-brand {
