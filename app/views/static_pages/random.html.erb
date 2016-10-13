@@ -7,7 +7,6 @@
             <p><%= @idea.content %></p>
             <small>by <%= @idea.author %></small>
             </blockquote>
-            <br>
 
             <div class="btn-group" role="group">
                 <%= link_to 'Delete', idea_path(@idea), method: :delete, class: 'btn btn-sm btn-danger', data: {confirm: "Are you sure?"} %>
