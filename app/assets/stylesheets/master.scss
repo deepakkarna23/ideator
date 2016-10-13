@@ -8,7 +8,6 @@ $footer-height: 45px;
 .navbar-default {
   font-family: $secondary-font;
   background-color: white;
-  border: 1px;
 }
 
 .navbar-brand {
@@ -32,6 +31,10 @@ body {
 
 .panel {
   background-color: rgba(255,255,255,8);
+}
+
+h1 {
+  color:white;
 }
 
 /* Styles go here */
