@@ -1,4 +1,6 @@
-$primary-font: 'Open Sans', sans-serif;  
+@import "font-awesome";
+
+$primary-font: 'Gloria Hallelujah', sans-serif;  
 $secondary-font: 'Dosis', sans-serif;  
 $main-blue: #337ab7;
 $footer-height: 45px;
@@ -6,19 +8,31 @@ $footer-height: 45px;
 .navbar-default {
   font-family: $secondary-font;
   background-color: white;
+  border: 1px;
+}
+
+.navbar-brand {
+  font-family: $primary-font;
 }
 
 .html, .body {
     font-family: $primary-font;
 }
 
-.navbar-default .navbar-brand {
+body {
+  background: url('https://wallpaperscraft.com/image/background_black_white_wooden_surface_board_18564_2048x2048.jpg')fixed no-repeat;
+}
+
+.navbar-header .navbar-brand {
   font-weight: 100; 
   font-size: 30px;
   letter-spacing: 2px;
   color: $main-blue;
 }
 
+.panel {
+  background-color: rgba(255,255,255,8);
+}
 
 /* Styles go here */
 
@@ -44,4 +58,5 @@ body {
 /* Set the fixed height of the footer here */
 .footer {
   height: $footer-height;
+  color: white;
 }
